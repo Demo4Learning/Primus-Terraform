@@ -1,0 +1,5 @@
+instanceType = "t2.micro"
+keypair      = "terraformkey-b"
+vpc-cidr     = "10.0.0.0/16"
+avZone       = "eu-west-3a"
+# userData = "${file("shellscript.sh")}"
